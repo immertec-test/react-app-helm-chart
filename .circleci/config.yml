@@ -24,12 +24,12 @@ jobs:
           command: |
             helm plugin install https://github.com/hypnoglow/helm-s3.git;
             helm s3 init $HELM_S3_BUCKET/react-app;
-            helm repo add react-app $HELM_S3_BUCKET/react-app/;
+            helm repo add apps $HELM_S3_BUCKET/react-app/;
       - run:
           name: Package and publish chart
           command: |
             helm package .;
-            helm s3 push ./react-app-0.1.0.tgz react-app
+            helm s3 push ./react-app-0.1.0.tgz apps
 
 workflows:
   helm:
