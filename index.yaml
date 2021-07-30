@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  react-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-30T15:36:01.984514-04:00"
+    description: A Helm chart for react applications
+    digest: 37285ba206c798a7a922534fe0b23f61ceffa74de3a33f80a82a024b82af05ab
+    home: https://github.com/immertec-test/react-app-helm-chart
+    keywords:
+    - react
+    maintainers:
+    - name: Deo Kalule
+      url: https://github.com/deograstius
+    name: react-app
+    type: application
+    urls:
+    - https://immertec-test.github.io/react-app-helm-chart/react-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-07-30T15:36:01.984102-04:00"
